@@ -8,7 +8,7 @@
     "build": "browserify --extension=.jsx -t reactify src/app.jsx | uglifyjs -mc warnings=false > dist/bundle.min.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "flux": "^2.1.1",
     "react": "^0.14.0",
